@@ -11,10 +11,29 @@
 
 <body>
     <!-- Iteration 1: Add the Astronaut Images -->
-
-
+   <img src="https://i1.faceprep.in/ProGrad/space-man-1.png" alt="Astronaut 1" id="astronaut1">
+   <img src="https://i1.faceprep.in/ProGrad/space-man-2.png" alt="Astronaut 2" id="astronaut2">
 
     <!-- Iteration 2: Create the form tag and add all the required questions using label-->
+    <form>
+        <h1>Rocket Around With Your Bffs</h1>
+        <label for="country" class="block-display">Departure Country</label>
+        <select name="countries" id="countries"
+        <option value="usa">USA</option>
+        <option value="uae">UAE</option>
+    </select>
+    <label for="travel" class="block-display">No. of space travellers</label>
+    <input type="number" name="travellers" id="travellers">
+    <label for="email" class="block-display">Your email</label>
+    <input type="email" name="email" id="email" placeholder="ilovespace@space.com">
+     <label for="rent" class="block-display">Do you want to rent a Space-suit?</label>
+    <input type="radio" name="yes" id="yes">
+    <label for="yes" class="rent-label">Yes,please </label>
+    <input type="radio" name="no" id="no">
+    <label for="no" class="rent-label"> No,I have my own </label>
+    <input type="button" id="button"value="Take Us To Space"
+</form>
+
 
 
 </body>
